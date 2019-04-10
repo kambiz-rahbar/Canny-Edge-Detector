@@ -43,7 +43,7 @@ GradY_I = conv2(GaussFlt_I, GradFltCoeff.Y, 'same');
 figure(2); imshow(uint8(GaussFlt_I)); title('Gaussian Flt');
 figure(3);
 subplot(1,2,1); imshow(GradX_I); title('GradX Flt');
-subplot(1,2,2); imshow(GradY_I); title('GradX Flt');
+subplot(1,2,2); imshow(GradY_I); title('GradY Flt');
 
 
 %% 3. calculate direction of edges
